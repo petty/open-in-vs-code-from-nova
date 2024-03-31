@@ -1,0 +1,16 @@
+**Open in Visual Studio Code** provides a way to quickly open the current file in _that_ editor.
+
+## Requirements
+
+Make sure you've installed the VS Code CLI tool.
+
+## Usage
+
+To run the extension:
+
+- Select the **Editor → open in vs code** menu item; or
+- Open the command palette and type `Open in VS Code`
+
+## That's it!
+
+But this is only half of the equation, to open a file in Nova from VS Code, get this VS Code Extension:
