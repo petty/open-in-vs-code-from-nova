@@ -1,5 +1,5 @@
 function openFile(editor) {
-  const currentFilePath = editor.document.path
+  let currentFilePath = editor.document.path
   let line = null
   let column = null
 
