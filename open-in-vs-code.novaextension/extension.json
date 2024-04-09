@@ -1,0 +1,23 @@
+{
+  "identifier": "com.paulpetty.openinvscode",
+  "name": "Open in VS Code",
+  "organization": "Petty",
+  "description": "Use 'Open in VS Code' to open the current in VS Code",
+  "repository": "https://github.com/petty/open-in-vs-code-from-nova",
+  "bugs": "https://github.com/petty/open-in-vs-code-from-nova/issues",
+  "version": "1.0.0",
+  "categories": ["commands"],
+  "main": "main.js",
+  "license": "MIT",
+  "entitlements": {
+    "process": true
+  },
+  "commands": {
+    "editor": [
+      {
+        "title": "Open in VS Code",
+        "command": "openInVsCode.openFile"
+      }
+    ]
+  }
+}
